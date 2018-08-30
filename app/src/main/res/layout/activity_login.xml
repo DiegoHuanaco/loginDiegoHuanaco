@@ -7,62 +7,39 @@
     tools:context=".activities.Login">
 
     <TextView
-        android:id="@+id/textViewPass"
-        android:layout_width="136dp"
-        android:layout_height="49dp"
-        android:layout_marginBottom="1dp"
-        android:layout_marginStart="28dp"
-        android:text="Pass: "
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444" />
-
-    <TextView
         android:id="@+id/textViewRut2"
-        android:layout_width="135dp"
+        android:layout_width="241dp"
         android:layout_height="49dp"
         android:layout_marginBottom="1dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="72dp"
         android:text="Rut: "
+        android:textAlignment="center"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247" />
+        app:layout_constraintVertical_bias="0.229" />
 
     <EditText
-        android:id="@+id/editTextRut2"
-        android:layout_width="167dp"
+        android:id="@+id/editTextRut"
+        android:layout_width="323dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="none|textPersonName"
-        android:text="Rut"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="163dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintVertical_bias="0.395" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonLogin"
         android:layout_width="254dp"
         android:layout_height="65dp"
+        android:layout_marginTop="5dp"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
